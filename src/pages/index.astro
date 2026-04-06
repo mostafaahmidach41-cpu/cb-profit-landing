@@ -1,5 +1,5 @@
 ---
-// 100% English - Professional Conversion Optimized
+// 100% English - High Conversion - Zero External Dependencies
 const affiliateLink = "https://dcff77kuqvzpxoeajgucl-wohw.hop.clickbank.net";
 ---
 
@@ -7,60 +7,111 @@ const affiliateLink = "https://dcff77kuqvzpxoeajgucl-wohw.hop.clickbank.net";
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>VIP Access | Profit System</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Elite Profit Blueprint | VIP Access</title>
     <style>
-      /* إجبار الخلفية السوداء لمنع اللون الأبيض */
-      :root { color-scheme: dark; }
-      body { 
-        background: radial-gradient(circle at top right, #111827 0%, #000000 100%) !important;
+      /* Embedded Styles to ensure 100% rendering success */
+      body {
+        background: radial-gradient(circle at top right, #1a202c 0%, #000000 100%) !important;
+        color: white;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
         margin: 0;
-        padding: 0;
+        text-align: center;
       }
-      .glass {
-        background: rgba(255, 255, 255, 0.03);
-        backdrop-filter: blur(10px);
+
+      .container {
+        max-width: 400px;
+        width: 90%;
+        padding: 40px;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 30px;
         border: 1px solid rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(20px);
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+      }
+
+      .icon-box {
+        background: #2563eb;
+        width: 80px;
+        height: 80px;
+        border-radius: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 30px;
+        font-size: 45px;
+        font-weight: 900;
+        box-shadow: 0 0 35px rgba(37, 99, 235, 0.5);
+      }
+
+      h1 { 
+        font-size: 34px; 
+        font-weight: 900; 
+        margin: 0; 
+        text-transform: uppercase; 
+        letter-spacing: -1px;
+        line-height: 1.1; 
+      }
+
+      .highlight-price { 
+        color: #3b82f6; 
+        font-size: 60px; 
+        font-style: italic; 
+        display: block; 
+        margin: 15px 0; 
+        text-shadow: 0 0 20px rgba(59, 130, 246, 0.4);
+      }
+
+      p { 
+        color: #94a3b8; 
+        font-size: 18px; 
+        line-height: 1.5;
+        margin-bottom: 40px; 
+      }
+
+      .cta-button {
+        display: block;
+        background: linear-gradient(to right, #2563eb, #06b6d4);
+        color: white;
+        text-decoration: none;
+        padding: 22px;
+        border-radius: 18px;
+        font-size: 22px;
+        font-weight: 900;
+        transition: all 0.3s ease;
+        box-shadow: 0 15px 30px rgba(37, 99, 235, 0.4);
+        text-transform: uppercase;
+      }
+
+      .cta-button:hover { 
+        transform: translateY(-3px) scale(1.02); 
+        box-shadow: 0 20px 40px rgba(37, 99, 235, 0.6);
+      }
+
+      .cta-button:active {
+        transform: translateY(0) scale(0.98);
+      }
+
+      footer { 
+        margin-top: 45px; 
+        font-size: 10px; 
+        color: #475569; 
+        letter-spacing: 4px; 
+        font-weight: bold;
+        text-transform: uppercase;
       }
     </style>
   </head>
-  <body class="text-white antialiased bg-black">
-    <main class="max-w-[450px] mx-auto min-h-screen flex flex-col items-center justify-center px-6 py-10 text-center">
-      
-      <div class="mb-8 w-20 h-20 bg-blue-600 rounded-3xl flex items-center justify-center shadow-[0_0_40px_rgba(37,99,235,0.4)] animate-pulse">
-        <span class="text-4xl font-black">$</span>
-      </div>
-
-      <h1 class="text-4xl font-black mb-4 uppercase tracking-tighter leading-none">
-        Elite Member <br/>
-        <span class="text-blue-500 text-6xl italic">$260.16</span> <br/>
-        Blueprint
-      </h1>
-
-      <p class="text-slate-400 text-lg mb-8">
-        Private Access to 9x Platinum Systems. <br/>
-        <span class="text-cyan-400 font-bold underline">Limited Spots Available ⚡</span>
-      </p>
-
-      <div class="w-full grid grid-cols-2 gap-4 mb-8">
-        <div class="glass p-5 rounded-2xl">
-          <p class="text-[10px] text-slate-500 uppercase font-black">Avg Sale</p>
-          <p class="text-2xl font-bold text-blue-400">$260.16</p>
-        </div>
-        <div class="glass p-5 rounded-2xl">
-          <p class="text-[10px] text-slate-500 uppercase font-black">Status</p>
-          <p class="text-2xl font-bold text-green-400">Verified</p>
-        </div>
-      </div>
-
-      <a href={affiliateLink} class="w-full py-6 bg-blue-600 hover:bg-blue-500 transition-all rounded-2xl text-2xl font-black shadow-2xl">
-        GET ACCESS NOW 🚀
-      </a>
-
-      <footer class="mt-16 text-[9px] text-slate-700 uppercase tracking-widest font-bold">
-        OFFICIAL CLICKBANK PARTNER
-      </footer>
-      
-    </main>
+  <body>
+    <div class="container">
+      <div class="icon-box">$</div>
+      <h1>Join the Elite<br><span class="highlight-price">$260.16</span>System</h1>
+      <p>9x Platinum Vendor's Club Access.<br>Verified Real-Time Profit Strategy.</p>
+      <a href={affiliateLink} class="cta-button">Get Started Now 🚀</a>
+      <footer>Official ClickBank Partner</footer>
+    </div>
   </body>
 </html>
