@@ -1,4 +1,5 @@
 ---
+// English version with high-impact design
 const affiliateLink = "https://dcff77kuqvzpxoeajgucl-wohw.hop.clickbank.net";
 ---
 
@@ -6,44 +7,59 @@ const affiliateLink = "https://dcff77kuqvzpxoeajgucl-wohw.hop.clickbank.net";
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ClickBank Profit Club</title>
+    <title>ClickBank Profit Club | VIP Access</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
       body {
         background: radial-gradient(circle at top right, #1e293b 0%, #000000 100%);
+        font-family: 'Inter', sans-serif;
       }
       .neon-glow {
         text-shadow: 0 0 20px rgba(59, 130, 246, 0.8);
       }
+      .glass-card {
+        background: rgba(255, 255, 255, 0.03);
+        backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
     </style>
   </head>
-  <body class="text-white antialiased font-sans bg-black">
+  <body class="text-white antialiased">
     <main class="max-w-[480px] mx-auto min-h-screen flex flex-col items-center px-6 py-12 text-center">
       
-      <div class="mb-10 w-24 h-24 bg-blue-600 rounded-3xl flex items-center justify-center shadow-[0_0_50px_rgba(37,99,235,0.3)] animate-pulse">
-        <span class="text-5xl font-black text-white">$</span>
+      <div class="mb-10 w-24 h-24 bg-gradient-to-tr from-blue-600 to-cyan-400 rounded-3xl flex items-center justify-center shadow-[0_0_50px_rgba(37,99,235,0.4)] animate-pulse">
+        <span class="text-5xl font-black">$</span>
       </div>
 
-      <h1 class="text-4xl font-black mb-6 leading-tight uppercase">
+      <h1 class="text-4xl font-black mb-6 leading-tight uppercase tracking-tighter">
         Join the Elite <br/>
         <span class="text-blue-500 text-6xl italic neon-glow">$260.16</span> <br/>
-        System
+        Profit System
       </h1>
 
+      <p class="text-slate-400 text-lg mb-10 font-medium">
+        9x Platinum Vendor's Private Club Access. <br/> 
+        <span class="text-cyan-400">Real Traffic • Guaranteed Results 📈</span>
+      </p>
+
       <div class="w-full grid grid-cols-2 gap-4 mb-10">
-        <div class="bg-white/5 p-6 rounded-2xl border border-white/10">
+        <div class="glass-card p-6 rounded-2xl">
           <p class="text-[10px] text-slate-500 uppercase font-black mb-1">Avg $/Sale</p>
           <p class="text-3xl font-bold text-blue-400">$260.16</p>
         </div>
-        <div class="bg-white/5 p-6 rounded-2xl border border-white/10">
+        <div class="glass-card p-6 rounded-2xl">
           <p class="text-[10px] text-slate-500 uppercase font-black mb-1">Conv Rate</p>
           <p class="text-3xl font-bold text-cyan-400">3.22%</p>
         </div>
       </div>
 
-      <a href={affiliateLink} class="w-full py-6 bg-blue-600 hover:bg-blue-500 transition-all rounded-2xl text-2xl font-black shadow-lg">
+      <a href={affiliateLink} class="w-full py-6 bg-gradient-to-r from-blue-600 to-cyan-500 hover:scale-[1.03] transition-all rounded-2xl text-2xl font-black shadow-[0_20px_50px_rgba(37,99,235,0.5)]">
         GET STARTED NOW 🚀
       </a>
+
+      <footer class="mt-20 text-[10px] text-slate-600 uppercase tracking-[0.4em] font-bold">
+        Verified ClickBank® Partner
+      </footer>
       
     </main>
   </body>
